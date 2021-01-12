@@ -1,0 +1,19 @@
+@import '../../assets/styles/config';
+
+.total-container {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: $color-silver;
+  font-size: 18px;
+  font-weight: $font-weight-bold;
+  text-transform: uppercase;
+}
+
+.total {
+  font-size: 64px;
+  font-weight: $font-weight-bold;
+}

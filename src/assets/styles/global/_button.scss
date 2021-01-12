@@ -79,3 +79,29 @@
     cursor: default;
   }
 }
+
+//-----------------------------------------
+// Input
+//-----------------------------------------
+.button {
+  &--input {
+    background-color: darken($color-silver, 10%);
+    color: $color-black;
+    font-size: 28px;
+    font-weight: $font-weight-bold;
+
+    &.green {
+      background-color: $color-secondary;
+    }
+
+    &.red {
+      background-color: $color-primary;
+    }
+
+    &:focus,
+    &:hover {
+      background-color: $color-silver;
+      color: $color-black;
+    }
+  }
+}

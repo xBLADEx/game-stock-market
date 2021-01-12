@@ -1,0 +1,21 @@
+.button-grid {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 1fr 1fr;
+
+  .numbers {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+
+    .two {
+      grid-column: span 2;
+    }
+  }
+
+  .actions {
+    align-content: start;
+    display: grid;
+    gap: 15px;
+  }
+}
