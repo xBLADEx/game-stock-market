@@ -5,13 +5,13 @@ import './history.scss';
 const History = ({ history }) => {
   return (
     <div className="row">
-      <div className="bar">{history}</div>
+      <div className="bar">{history.map((item) => item)}</div>
     </div>
   );
 };
 
 History.propTypes = {
-  history: PropTypes.number.isRequired,
+  history: PropTypes.array.isRequired,
 };
 
 export default History;
