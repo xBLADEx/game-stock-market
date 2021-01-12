@@ -1,0 +1,76 @@
+//--------------------------------------------------------------
+// SETTINGS
+//--------------------------------------------------------------
+
+//-----------------------------------------
+// Global
+//-----------------------------------------
+$global-width: 1180px;
+$global-padding: 20px;
+$global-radius: 5px;
+$global-spacing: 25px;
+
+//-----------------------------------------
+// Media Queries
+//-----------------------------------------
+$mq-mobile-medium: 375px;
+$mq-mobile-large: 425px;
+$mq-tablet: 768px;
+$mq-laptop: 1024px;
+$mq-global-width: $global-width;
+$mq-laptop-large: 1440px;
+
+//-----------------------------------------
+// Fonts
+//-----------------------------------------
+$font-montserrat: 'Montserrat', sans-serif;
+
+// Family
+$font-family-body: $font-montserrat;
+$font-family-heading: $font-montserrat;
+
+// Size
+$font-size-content: 1rem;
+
+// Weight
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+$font-weight-extra-bold: 800;
+$font-weight-black: 900;
+
+//-----------------------------------------
+// Colors
+//-----------------------------------------
+// Neutrals
+$color-black: #000000;
+$color-white: #ffffff;
+$color-gray: #808080;
+
+// Theme Colors
+$color-hippie-blue: #5c8fb2;
+$color-chestnut-rose: #c95555;
+$color-lynch: #648591;
+$color-alabaster: #fafafa;
+$color-dune: #2b2925;
+
+// Roles
+$color-primary: $color-hippie-blue;
+$color-secondary: $color-chestnut-rose;
+$color-tertiary: $color-lynch;
+$color-theme-black: $color-dune;
+$color-theme-white: $color-alabaster;
+$color-theme-gray: $color-gray;
+
+// Alerts
+$color-error: #ea595e;
+$color-warning: #f0bd2b;
+$color-success: #59ea9d;
+
+// Social Media - https://www.lockedownseo.com/social-media-colors/
+$color-facebook: #3b5998;
+$color-twitter: #1da1f2;
+$color-youtube: #ff0000;
+$color-instagram: #c32aa3;

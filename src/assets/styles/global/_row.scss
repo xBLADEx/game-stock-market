@@ -1,0 +1,12 @@
+//--------------------------------------------------------------
+// ROW
+//--------------------------------------------------------------
+
+.row {
+  display: flow-root;
+  margin: 0 auto;
+  max-width: $global-width;
+  padding: 0 $global-padding;
+  position: relative;
+  width: 100%;
+}
